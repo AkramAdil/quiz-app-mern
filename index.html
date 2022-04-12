@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creational Patterns</title>
+    <style>
+        body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            direction: rtl;
+        }
+        header {
+            background-color: yellowgreen;
+            color: black;
+            height: 30px;
+            text-align: center;
+            font-weight: 700;
+            padding: 5px;
+        }
+        .box {
+            width: 100px;
+        height: 50px;
+        padding: 5px;
+        border: 1px solid red;
+        background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+    <header> بص في ال console عشان تفهم و تشوف امثلة</header>
+    <h1>These are examples of Creational patterns</h1>
+    <hr/>
+    <div class="constructor">
+        <h2>Constructor Pattern</h2>
+        <h3>بنستخدم النمط ده لما نكون عاوزين نعمل كائن قالب وننسخ منو كائنات تاني</h3>
+    </div>
+    <div class="Singlton">
+        <h2>Singlton Pattern</h2>
+        <h3>بنستخدم النمط ده لما نكون عاوزين نعمل كائن واحد ملهوش زي وميتعملش منيه نسخ تاني،
+         زي محمد رمضان(نمبر ون)،كل ماتحاول تعمل هيرجعلك نفس ال عملتو اول واحد بنستخدم النمط دا لما نكون عاوزين
+          نشارك حالة معينة مع كذا حتة من البرنامج</h3>
+        <button class="one">increase</button>
+    </div>
+    <div class="Prototype">
+        <h1>Prototype Pattern</h1>
+        <h3>
+            لو فيه كائن معمول
+             (نموزج أولي/prototype)
+             وانت عاوز تعمل منيه نسخة فبدل ما تعمل كائن من الأول و تنسخ صفات الكائن الأصلي فبنستخدم النمط دا 
+           أو لو فيه صفة معينة كائنات كتير بتشترك فيها فبدل ما نحط الصفة في كل كائن بنستخدم النمط دا
+        </h3>
+        <h3> في الجافا سكربت لما بنعمل CLASS أي 
+            صفات موجود في الCLASSنفسو بتكون برضو في Prototypeبتاع الCALSS دا</h3>
+        <h3>مصطلح prototype chain يعني ان في سلسلة من ال prototype يعني ممكن يكون فيه prototype واخد أو صفات من prototype
+            واخد صفات من prototype وهكذا
+        </h3>
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
